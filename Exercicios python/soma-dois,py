@@ -1,6 +1,0 @@
-n1 = float(input('valor 01 ? '))
-n2 = float(input('valor 02 ? '))
-
-resultado = n1 + n2
-
-print(f"A soma de {n1} + {n2} é igual a {resultado}")
