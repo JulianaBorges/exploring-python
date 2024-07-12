@@ -1,9 +1,9 @@
 def calculo_inss(salario_bruto):
     if salario_bruto <= 1100:
         return salario_bruto * 0.075
-    elif 1100.01 <= salario_bruto <= 2203.048:
+    elif 1100.01 <= salario_bruto <= 2203.48:
         return salario_bruto * 0.09
-    elif 22003.049 <= salario_bruto <= 3305.22:
+    elif 2203.49 <= salario_bruto <= 3305.22:
         return salario_bruto * 0.12
     elif 3305.22 <= salario_bruto <= 6433.57:
         return salario_bruto * 0.14
@@ -11,9 +11,9 @@ def calculo_inss(salario_bruto):
         return 751.90
 
 def calculo_irrf(salario_liquido):
-    if salario_liquido <= 19903.98:
+    if salario_liquido <= 1903.98:
         return 0 
-    elif 19903.99 <= salario_liquido <= 2826.65:
+    elif 1903.99 <= salario_liquido <= 2826.65:
         return (salario_liquido * 0.075) - 142.8
     elif 2826.66 <= salario_liquido <= 3751.05:
         return (salario_liquido * 0.15) - 358.8
